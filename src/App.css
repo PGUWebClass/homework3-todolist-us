@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+}
+
+/*title*/
+h1 {
+  text-align: center;
+  color: #444;
+}
+
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+button {
+  padding: 8px 15px;
+  background-color: #ffb6c1;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff99ac;
+
+}
+
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f9f9f9;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+/* وقتی تسک انجام بشه خط میخوره */
+.todo-list li.completed span {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.todo-list li span {
+  cursor: pointer;
+}
+
+
+.delete-btn {
+  background-color: #ffb6c1;
+  padding: 5px 10px;
+}
+
+.delete-btn:hover {
+  background-color: #ff99ac;
+}

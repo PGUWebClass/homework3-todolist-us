@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": "2",
+      "title": "Do homework",
+      "completed": true
+    },
+    {
+      "id": "3",
+      "title": "Clean the house",
+      "completed": true
+    },
+    {
+      "id": "07c3",
+      "title": "hair care",
+      "completed": false
+    }
+  ]
+}
