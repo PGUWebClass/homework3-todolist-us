@@ -4,6 +4,8 @@
 [![Work in MakeCode](https://classroom.github.com/assets/work-in-make-code-8824cc13a1a3f34ffcd245c82f0ae96fdae6b7d554b6539aec3a03a70825519c.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18724565&assignment_repo_type=AssignmentRepo)
 
 This project is a **Todo List** built with **React** and uses **JSON Server** for managing tasks.
+## 🌐 Live Demo
+[🚀 View on Vercel](https://todo-list3-k0iprlp22-hanizrs-projects.vercel.app)
 
 ## Available Scripts
 
